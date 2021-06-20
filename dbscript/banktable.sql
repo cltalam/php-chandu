@@ -2,8 +2,8 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 \! echo " * Initializing..... Database..!!";
-CREATE USER 'ggroot'@'%' IDENTIFIED BY 'bose123$';
-GRANT ALL PRIVILEGES ON *.* TO 'ggroot'@'%' WITH GRANT OPTION;
+CREATE USER 'groot'@'%' IDENTIFIED BY 'bose123$';
+GRANT ALL PRIVILEGES ON *.* TO 'groot'@'%' WITH GRANT OPTION;
 
 CREATE DATABASE bankdb;
 USE bankdb;
